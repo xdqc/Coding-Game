@@ -3,11 +3,9 @@ using System.Linq;
 using System.Collections.Generic;
 
 /**
- * Breadth-first search (BFS) is an algorithm for traversing or searching tree 
- * or graph data structures. It starts at the tree root and explores the neighbor 
- * nodes first, before moving to the next level neighbors. Thus closer nodes get 
- * visited first.
- **/
+* Auto-generated code below aims at helping you parse
+* the standard input according to the problem statement.
+**/
 
 public class Link
 {
@@ -102,6 +100,12 @@ class Player
         }
     }
 
+    /**
+     * Breadth-first search (BFS) is an algorithm for traversing or searching tree 
+     * or graph data structures. It starts at the tree root and explores the neighbor 
+     * nodes first, before moving to the next level neighbors. Thus closer nodes get 
+     * visited first.
+     **/
     static void BFS(Node root, List<Node> nodes, List<Link> links)
     {
         for (int i = 0; i < nodes.Count; i++)
